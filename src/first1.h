@@ -1,10 +1,11 @@
-using namespace std
+#pragma once
+using namespace std;
 
 class lqk
 {
-	public:
-		lqk(){lqk="lqk";}
-		string& getname(){ return lqk}
-	private:
-		string lqk;
-}
+public:
+	lqk() { name = "lqk"; }
+	string getname() { return name; }
+private:
+	string name;
+};

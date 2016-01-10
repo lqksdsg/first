@@ -1,11 +1,12 @@
 #include <iostream>
+#include <string>
 #include "first1.h"
-using namespace std
+using namespace std;
 
-int main(){
+int main() {
 	cout << "hello brother!" << endl;
-	lqk FirstClass = new lqk();
-	cout << "my name is " << FirstClass.getname() << "thank you!" << endl;
-	
+	lqk FirstClass = lqk();
+	cout << "my name is " << FirstClass.getname() << " thank you!" << endl;
+
 	return 0;
 }
